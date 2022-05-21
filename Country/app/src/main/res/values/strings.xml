@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Country</string>
+    <string name="money">Money</string>
+    <string name="detail">Detail Country</string>
+    <string-array name="listview">
+        <item>Hello</item>
+    </string-array>
+</resources>

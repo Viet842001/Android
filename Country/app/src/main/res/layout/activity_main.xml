@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LoadData"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="16dp"
+            />
+
+        <Button
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:gravity="center"
+            android:text="Money"
+            android:enabled="false"
+            android:clickable = "false"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="16dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <ListView
+        android:id="@+id/idListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
